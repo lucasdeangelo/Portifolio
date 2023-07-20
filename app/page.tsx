@@ -36,7 +36,7 @@ export default function Home() {
 
       <div className="sobremim">
         <div>          
-            <h2 className='text-5xl text-center font-extrabold sticky bottom-40'>Sobre Mim</h2>
+            <h2 className='text-5xl text-center font-extrabold relative bottom-30'>Sobre Mim</h2>
             <div className="flex justify-center items-center pt-[150px]">
               <svg xmlns="http://www.w3.org/2000/svg" width="5" height="568" viewBox="0 0 5 568" fill="none">
                 <path d="M2.5 565L2.5 3" stroke="#1E1E1E" stroke-width="5" stroke-linecap="round"/>
@@ -52,8 +52,10 @@ export default function Home() {
 
             <p className='relative left-[30%] bottom-[470px]'>Tenho como principal foco trazer soluções <br /> práticas no mundo real que façam a diferença <br /> de verdade na vida das pessoas, desde a <br /> segurança, UX e fucionalidade diante aos <br /> problemas existentes. </p>
             
+            <div className='text-white bg-amarelo hover:bg-amarelohover inline-flex p-3 px-8 rounded-2xl ml-[45.7%] relative bottom-[420px] '><a href="Lucas_de_Angelo-web-designer.pdf" download={"Lucas_de_Angelo-web-designer.pdf"}>Veja meu CV</a></div>
         </div>
       </div>
+      
     </main>
   )
 }
