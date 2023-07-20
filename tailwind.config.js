@@ -16,7 +16,9 @@ module.exports = {
         'roxo': '#3D0066',
         'bege': '#FFFCF2',
         'amarelo': '#FFD500',
+        'amarelohover': '#F5CD00',
         'preto': '#1E1E1E',
+        
       },
     },
   },
