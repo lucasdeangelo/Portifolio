@@ -55,7 +55,92 @@ export default function Home() {
             <div className='text-white bg-amarelo hover:bg-amarelohover inline-flex p-3 px-8 rounded-2xl ml-[45.7%] relative bottom-[420px] '><a href="Lucas_de_Angelo-web-designer.pdf" download={"Lucas_de_Angelo-web-designer.pdf"}>Veja meu CV</a></div>
         </div>
       </div>
-      
+
+      <div className="skills">
+        <div>
+          <h2 className='text-5xl text-center font-extrabold relative bottom-30'>Skills</h2>
+          <div className="cards">
+            <div className="card1">
+              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[450px] top-[100px]'>
+                <Image src="/../public/image/design.png" width={300} height={100} alt=''/>
+                <Image className='relative top-[10px]' src="/../public/icons/varinha.png" width={38} height={38} alt=''/>
+                <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Design</h3>
+                <div className='relative left-[60px] bottom-[35px]'>
+                  <p>UX & UI</p>
+                  <p>Figma</p>
+                  <p>Photoshop</p>
+                  <p>Copywritting</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="cards">
+            <div className="card2">
+              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[800px] bottom-[200px]'>
+                <Image src="/../public/image/front-end.png" width={300} height={100} alt=''/>
+                <Image className='relative top-[10px]' src="/../public/icons/chave.png" width={38} height={38} alt=''/>
+                <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Front End</h3>
+                <div className='relative left-[60px] bottom-[35px]'>
+                  <p>HTML & CSS</p>
+                  <p>ReactJS & React Native</p>
+                  <p>Tailwind CSS</p>
+                  <p>Wordpress</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="cards">
+            <div className="card3">
+              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[1150px] bottom-[500px]'>
+                <Image src="/../public/image/back-end.png" width={300} height={100} alt=''/>
+                <Image className='relative top-[10px]' src="/../public/icons/server.png" width={38} height={38} alt=''/>
+                <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Back End</h3>
+                <div className='relative left-[60px] bottom-[35px]'>
+                  <p>Lógica</p>
+                  <p>Python</p>
+                  <p>NodeJS</p>
+                  <p>MySQL</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="cards">
+            <div className="card4">
+              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[630px] bottom-[460px]'>
+                <Image src="/../public/image/cybersecurity.png" width={300} height={100} alt=''/>
+                <Image className='relative top-[10px]' src="/../public/icons/escudo.png" width={38} height={38} alt=''/>
+                <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Cybersecurity</h3>
+                <div className='relative left-[60px] bottom-[35px]'>
+                  <p>SOC</p>
+                  <p>Pentesting</p>
+                  <p>Risk Analisis</p>
+                  <p>Data Security</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="cards">
+            <div className="card5">
+              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[980px] bottom-[760px]'>
+                <Image src="/../public/image/ingles.png" width={300} height={100} alt=''/>
+                <Image className='relative top-[10px]' src="/../public/icons/chat.png" width={38} height={38} alt=''/>
+                <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Inglês</h3>
+                <div className='relative left-[60px] bottom-[35px]'>
+                  <p>Grande Compreensão</p>
+                  <p>Boa Pronúncia</p>
+                  <p>Boa Escrita</p>
+                  <p>Conversação Média</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </main>
   )
 }
