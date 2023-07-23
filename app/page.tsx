@@ -138,7 +138,56 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
+      <div className="qualificacao">
+        <div>
+          <div className="relative bottom-[320px]">
+
+          <h2 className='text-5xl text-center font-extrabold relative bottom-30'>Qualificações</h2>
+          <div className="flex justify-center items-center pt-[150px]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="6" height="576" viewBox="0 0 6 576" fill="none">
+            <path d="M3 573L3 2.99999" stroke="#1E1E1E" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+            </div>
+            <Image className='relative left-[48.7%] bottom-[600px]' src="/../public/circulo.png" width={50} height={50} alt=''/>
+            <Image className='relative left-[48.7%] bottom-[530px]' src="/../public/circulo.png" width={50} height={50} alt=''/>
+            <Image className='relative left-[48.7%] bottom-[450px]' src="/../public/circulo.png" width={50} height={50} alt=''/>
+            <Image className='relative left-[48.7%] bottom-[365px]' src="/../public/circulo.png" width={50} height={50} alt=''/>
+            <Image className='relative left-[48.7%] bottom-[280px]' src="/../public/circulo.png" width={50} height={50} alt=''/>
+
+            <div className='item1'>
+              <h4 className='relative left-[30%] bottom-[840px] font-medium text-2xl pb-2'>Ensino Médio</h4>
+              <p className='relative left-[30%] bottom-[840px]'>Escola Estadual Maria Auxiliadora</p>
+              <Image className='relative left-[30%] bottom-[830px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
+              <p className='relative left-[31.5%] bottom-[852px]'>2020 - 2022</p>
+            </div>
+            <div className="item2">
+              <h4 className='relative left-[53%] bottom-[830px] font-medium text-2xl pb-2'>Desenvolvimento de Sistemas</h4>
+              <p className='relative left-[53%] bottom-[830px]'>Etec de Embu</p>
+              <Image className='relative left-[53%] bottom-[820px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
+              <p className='relative left-[54.5%] bottom-[843px]'>2020 - 2022</p>
+            </div>
+            <div className="item3">
+              <h4 className='relative left-[30%] bottom-[810px] font-medium text-2xl pb-2'>Curso de Inglês</h4>
+              <p className='relative left-[30%] bottom-[810px]'>Enjoy Cursos Profissionalizantes</p>
+              <Image className='relative left-[30%] bottom-[800px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
+              <p className='relative left-[31.5%] bottom-[822px]'>2022 - 2024</p>
+            </div>
+            <div className="item3">
+              <h4 className='relative left-[53%] bottom-[790px] font-medium text-2xl pb-2'>Curso de Informática</h4>
+              <p className='relative left-[53%] bottom-[790px]'>CTI Educar Embu das Artes</p>
+              <Image className='relative left-[53%] bottom-[780px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
+              <p className='relative left-[54.5%] bottom-[803px]'>2018 - 2019</p>
+            </div>
+            <div className="item4">
+              <h4 className='relative left-[30%] bottom-[760px] font-medium text-2xl pb-2'>Treinamento de <br />Marketing</h4>
+              <p className='relative left-[30%] bottom-[760px]'>V4 Company</p>
+              <Image className='relative left-[30%] bottom-[750px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
+              <p className='relative left-[31.5%] bottom-[772px]'>2023 - 2024</p>
+            </div>         
+          </div>
         </div>
       </div>
     </main>
