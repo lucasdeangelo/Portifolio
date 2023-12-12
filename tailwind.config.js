@@ -19,6 +19,9 @@ module.exports = {
         'amarelohover': '#F5CD00',
         'preto': '#1E1E1E',        
       },
+      boxShadow: {        
+        'xl': '0px 3px 9.3px 0px rgba(0, 0, 0, 0.25)'
+      }
     },
   },
   plugins: [],

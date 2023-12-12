@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <div className="menu">
-        <div className='justify-start items-start gap-[35px] inline-flex'>
+        <div className='justify-start items-start gap-[35px] inline-flex sticky'>
           <div className='text-white bg-roxo p-4 flex flex-row rounded-r-3xl sticky top-0 '>
             <div className='pr-5 pl-[366px]'><a href="#hero">Início</a></div>
             <div className='pr-5'><a href="">Sobre</a></div>
@@ -21,7 +21,7 @@ export default function Home() {
           <div className="ml-36">
             <h1 className='text-preto text-7xl font-extrabold pl-60 pt-52'>Muito prazer, <br />sou o Lucas!</h1>
             <p className='text-lg pl-60 pt-4'>Sou um Desenvolvedor Full Stack com foco <br /> em UX Design. Me conheça melhor a partir do <br /> conteúdo sobre mim que eu preparei <br /> especialmente para você!</p>
-            <div className='text-white bg-amarelo hover:bg-amarelohover inline-flex p-3 rounded-2xl ml-60 mt-4'><a href="">Vamos Conversar!</a></div>
+            <div className='text-white shadow-xl bg-amarelo hover:bg-amarelohover inline-flex p-3 rounded-2xl ml-60 mt-4'><a href="">Vamos Conversar!</a></div>
             
             <div className="flex flex-row relative bottom-11 left-96 pl-7">
               <a href="https://github.com/lucasdeangelo?tab=repositories" className='pr-2'><Image src="/../public/icons/github.png" width={40} height={40} alt="GitHub Icone"/></a>
@@ -52,7 +52,7 @@ export default function Home() {
 
             <p className='relative left-[30%] bottom-[470px]'>Tenho como principal foco trazer soluções <br /> práticas no mundo real que façam a diferença <br /> de verdade na vida das pessoas, desde a <br /> segurança, UX e fucionalidade diante aos <br /> problemas existentes. </p>
             
-            <div className='text-white bg-amarelo hover:bg-amarelohover inline-flex p-3 px-8 rounded-2xl ml-[45.7%] relative bottom-[420px] '><a href="Lucas_de_Angelo-web-designer.pdf" download={"Lucas_de_Angelo-web-designer.pdf"}>Veja meu CV</a></div>
+            <div className='text-white shadow-xl bg-amarelo hover:bg-amarelohover inline-flex p-3 px-8 rounded-2xl ml-[45.7%] relative bottom-[420px] '><a href="Lucas_de_Angelo-web-designer.pdf" download={"Lucas_de_Angelo-web-designer.pdf"}>Veja meu CV</a></div>
         </div>
       </div>
 
@@ -61,14 +61,14 @@ export default function Home() {
           <h2 className='text-5xl text-center font-extrabold relative bottom-30'>Skills</h2>
           <div className="cards">
             <div className="card1">
-              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[450px] top-[100px]'>
+              <div className='bg-white shadow-xl flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[450px] top-[100px]'>
                 <Image src="/../public/image/design.png" width={300} height={100} alt=''/>
                 <Image className='relative top-[10px]' src="/../public/icons/varinha.png" width={38} height={38} alt=''/>
                 <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Design</h3>
                 <div className='relative left-[60px] bottom-[35px]'>
                   <p>UX & UI</p>
                   <p>Figma</p>
-                  <p>Photoshop</p>
+                  <p>Pacote Adobe</p>
                   <p>Copywritting</p>
                 </div>
               </div>
@@ -77,13 +77,13 @@ export default function Home() {
 
           <div className="cards">
             <div className="card2">
-              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[800px] bottom-[200px]'>
+              <div className='bg-white shadow-xl flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[800px] bottom-[200px]'>
                 <Image src="/../public/image/front-end.png" width={300} height={100} alt=''/>
                 <Image className='relative top-[10px]' src="/../public/icons/chave.png" width={38} height={38} alt=''/>
                 <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Front End</h3>
                 <div className='relative left-[60px] bottom-[35px]'>
-                  <p>HTML & CSS</p>
                   <p>ReactJS & React Native</p>
+                  <p>HTML & CSS</p>
                   <p>Tailwind CSS</p>
                   <p>Wordpress</p>
                 </div>
@@ -93,10 +93,10 @@ export default function Home() {
 
           <div className="cards">
             <div className="card3">
-              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[1150px] bottom-[500px]'>
+              <div className='bg-white shadow-xl flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[1150px] bottom-[500px]'>
                 <Image src="/../public/image/back-end.png" width={300} height={100} alt=''/>
                 <Image className='relative top-[10px]' src="/../public/icons/server.png" width={38} height={38} alt=''/>
-                <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Back End</h3>
+                <h3 className='relative left-[60px] bottom-[40px] pt-5 text-2xl font-bold'>Back End</h3>
                 <div className='relative left-[60px] bottom-[35px]'>
                   <p>Lógica</p>
                   <p>Python</p>
@@ -109,7 +109,7 @@ export default function Home() {
 
           <div className="cards">
             <div className="card4">
-              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[630px] bottom-[460px]'>
+              <div className='bg-white shadow-xl flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[630px] bottom-[460px]'>
                 <Image src="/../public/image/cybersecurity.png" width={300} height={100} alt=''/>
                 <Image className='relative top-[10px]' src="/../public/icons/escudo.png" width={38} height={38} alt=''/>
                 <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Cybersecurity</h3>
@@ -125,15 +125,15 @@ export default function Home() {
 
           <div className="cards">
             <div className="card5">
-              <div className='bg-white flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[980px] bottom-[760px]'>
+              <div className='bg-white shadow-xl flex-collumn gap-[35px] w-[300px] h-[300px] p-5 rounded-2xl relative left-[980px] bottom-[760px]'>
                 <Image src="/../public/image/ingles.png" width={300} height={100} alt=''/>
                 <Image className='relative top-[10px]' src="/../public/icons/chat.png" width={38} height={38} alt=''/>
                 <h3 className='relative left-[60px] bottom-[40px] pt-3 text-2xl font-bold'>Inglês</h3>
                 <div className='relative left-[60px] bottom-[35px]'>
-                  <p>Grande Compreensão</p>
+                  <p>Nível Intermediário</p>
                   <p>Boa Pronúncia</p>
                   <p>Boa Escrita</p>
-                  <p>Conversação Média</p>
+                  <p>Conversação Intermediária</p>
                 </div>
               </div>
             </div>
@@ -144,7 +144,6 @@ export default function Home() {
       <div className="qualificacao">
         <div>
           <div className="relative bottom-[320px]">
-
           <h2 className='text-5xl text-center font-extrabold relative bottom-30'>Qualificações</h2>
           <div className="flex justify-center items-center pt-[150px]">
           <svg xmlns="http://www.w3.org/2000/svg" width="6" height="576" viewBox="0 0 6 576" fill="none">
@@ -163,29 +162,32 @@ export default function Home() {
               <Image className='relative left-[30%] bottom-[830px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
               <p className='relative left-[31.5%] bottom-[852px]'>2020 - 2022</p>
             </div>
+
             <div className="item2">
               <h4 className='relative left-[53%] bottom-[830px] font-medium text-2xl pb-2'>Desenvolvimento de Sistemas</h4>
               <p className='relative left-[53%] bottom-[830px]'>Etec de Embu</p>
               <Image className='relative left-[53%] bottom-[820px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
-              <p className='relative left-[54.5%] bottom-[843px]'>2020 - 2022</p>
+              <p className='relative left-[54.5%] bottom-[843px]'>2022 - 2023</p>
             </div>
-            <div className="item3">
+
+            <div className="item4">
               <h4 className='relative left-[30%] bottom-[810px] font-medium text-2xl pb-2'>Curso de Inglês</h4>
               <p className='relative left-[30%] bottom-[810px]'>Enjoy Cursos Profissionalizantes</p>
               <Image className='relative left-[30%] bottom-[800px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
               <p className='relative left-[31.5%] bottom-[822px]'>2022 - 2024</p>
             </div>
-            <div className="item3">
-              <h4 className='relative left-[53%] bottom-[790px] font-medium text-2xl pb-2'>Curso de Informática</h4>
-              <p className='relative left-[53%] bottom-[790px]'>CTI Educar Embu das Artes</p>
+
+            <div className="item5">
+              <h4 className='relative left-[53%] bottom-[790px] font-medium text-2xl pb-2'>Treinamento de Marketing</h4>
+              <p className='relative left-[53%] bottom-[790px]'>V4 Company</p>
               <Image className='relative left-[53%] bottom-[780px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
-              <p className='relative left-[54.5%] bottom-[803px]'>2018 - 2019</p>
+              <p className='relative left-[54.5%] bottom-[803px]'>2023 - 2024</p>
             </div>
-            <div className="item4">
-              <h4 className='relative left-[30%] bottom-[760px] font-medium text-2xl pb-2'>Treinamento de <br />Marketing</h4>
-              <p className='relative left-[30%] bottom-[760px]'>V4 Company</p>
+            <div className="item6">
+              <h4 className='relative left-[30%] bottom-[760px] font-medium text-2xl pb-2'>Design Digital</h4>
+              <p className='relative left-[30%] bottom-[760px]'>FIAP</p>
               <Image className='relative left-[30%] bottom-[750px]' src={"/../public/icons/book.png"} width={20} height={20} alt=''/>
-              <p className='relative left-[31.5%] bottom-[772px]'>2023 - 2024</p>
+              <p className='relative left-[31.5%] bottom-[772px]'>2024 - 2026</p>
             </div>         
           </div>
         </div>
